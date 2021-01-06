@@ -8,14 +8,10 @@ import os
 import pyjokes 
 import smtplib 
 import requests 
-import shutil 
 from urllib.request import urlopen 
 import json
-from threading import Condition 
 import numpy as np
 from tensorflow import keras
-from sklearn.preprocessing import LabelEncoder
-import random
 import pickle
 
 engine = pyttsx3.init('sapi5') 
